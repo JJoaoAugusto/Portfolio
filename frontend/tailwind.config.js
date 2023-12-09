@@ -16,6 +16,7 @@ export default {
           4: "#9AA6E2",
         },
         gray: {
+          0: "#0A0A0B",
           1: "#212529",
           2: "#868E96",
           3: "#E9ECEF",
@@ -32,6 +33,9 @@ export default {
           1: "#0E76A8",
           2: "#CF50AC",
         },
+      },
+      backgroundImage: {
+        background: "url('./src/assets/background.svg)",
       },
     },
   },

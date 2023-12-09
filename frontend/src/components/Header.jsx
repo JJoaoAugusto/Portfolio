@@ -1,9 +1,9 @@
 export const Header = () => {
   return (
-    <header className="w-max-screen flex-row justify-center">
-      <nav className="w-full max-w-5xl flex-row justify-between">
-        <h2>João Augusto Vieira</h2>
-        <ul className="w-full max-w-xs flex-row justify-between">
+    <header className="w-full fixed h-20 flex flex-col justify-center items-center bg-gray-0 text-gray-4 border-b-4 border-purple-2">
+      <nav className="w-full max-w-5xl p-8 flex items-center justify-between">
+        <h2 className="text-xl font-bold">João Augusto</h2>
+        <ul className="w-full max-w-xs flex items-center justify-between">
           <li>Home</li>
           <li>Sobre</li>
           <li>Projetos</li>
