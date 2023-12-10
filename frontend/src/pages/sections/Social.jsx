@@ -1,7 +1,72 @@
+import wpp from "../../assets/wpp.svg";
+import email from "../../assets/email.svg";
+import linkedin from "../../assets/linkedin.svg";
+
 export const Social = () => {
   return (
-    <section>
-      <h1>Social</h1>
+    <section className="w-full h-[1000px] flex justify-center items-center bg-gray-1 text-gray-2">
+      <div className="w-full max-w-5xl h-full flex justify-between items-center p-8">
+        <div className="w-full max-w-sm h-[450px] flex flex-col gap-8">
+          <h2 className="text-3xl text-gray-4 font-bold">
+            Vamos começar uma conversa e
+            <span className="text-purple-2">
+              {" "}
+              desenvolver nossa criatividade
+            </span>{" "}
+            juntos?
+          </h2>
+          <p>
+            advertise your brand organically within dribblers design inspiration
+            feed
+          </p>
+        </div>
+        <ul className="w-full max-w-md flex flex-col gap-10">
+          <li className="flex justify-between items-start">
+            <figure className="flex justify-center items-center bg-green-1 min-w-[100px] min-h-[100px] rounded-2xl">
+              <img src={wpp} alt="Ícone do WhatsApp" className="" />
+            </figure>
+            <div className="flex flex-col gap-4 pl-8">
+              <h3 className="text-gray-4 text-lg font-bold">Meu Contato</h3>
+              <p>
+                estou disponível para um chat de voz, vamos falar de
+                criatividade juntos?
+              </p>
+              <a href="" className="w-fit">
+                Iniciar conversa agora
+              </a>
+            </div>
+          </li>
+
+          <li className="flex justify-between items-start">
+            <figure className="flex justify-center items-center bg-social-2 min-w-[100px] min-h-[100px] rounded-2xl">
+              <img src={email} alt="Ícone do E-mail" className="" />
+            </figure>
+            <div className="flex flex-col gap-4 pl-8">
+              <h3 className="text-gray-4 text-lg font-bold">Meu E-mail</h3>
+              <p>Me envie um e-mail relatando sugestões, feedbacks e ideias!</p>
+              <a href="" className="w-fit">
+                Enviar e-mail agora
+              </a>
+            </div>
+          </li>
+
+          <li className="flex justify-between items-start">
+            <figure className="flex justify-center items-center bg-social-1 min-w-[100px] min-h-[100px] rounded-2xl">
+              <img src={linkedin} alt="Ícone do Linkedin" className="" />
+            </figure>
+            <div className="flex flex-col gap-4 pl-8">
+              <h3 className="text-gray-4 text-lg font-bold">Meu Linkedin</h3>
+              <p>
+                Podemos criar interações mais constantes, bem como compartilhar
+                network!
+              </p>
+              <a href="" className="w-fit">
+                Ir para o Linkedin agora
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
