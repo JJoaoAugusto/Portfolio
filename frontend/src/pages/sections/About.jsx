@@ -9,8 +9,11 @@ import react from "../../assets/react.svg";
 
 export const About = () => {
   return (
-    <section className="bg-contain w-full h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16">
-      <div className="w-full max-w-5xl max-h-screen flex items-center justify-betweem p-8">
+    <section
+      id="home"
+      className="bg-contain w-full h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
+    >
+      <div className="w-full max-w-7xl max-h-screen flex items-center justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
           <figure className="w-[320px] flex items-center justify-between">
             <img
@@ -33,10 +36,12 @@ export const About = () => {
           </div>
 
           <div className="flex w-60 items-center justify-between">
-            <button className=" py-2 px-8 rounded-xl bg-purple-2 hover:bg-purple-1">
-              Ver Projetos
-            </button>
-            <a href="">
+            <a href="#projects">
+              <button className=" py-2 px-8 rounded-xl bg-purple-2 hover:bg-purple-1">
+                Ver Projetos
+              </button>
+            </a>
+            <a href="https://github.com/JJoaoAugusto" target="blank">
               <img src={github} alt="Ícone do Github" className="h-10" />
             </a>
           </div>
@@ -61,7 +66,7 @@ export const About = () => {
         </div>
 
         <figure className=" w-full max-w-lg">
-          <img src={background} alt="" />
+          <img src={background} alt="" className="w-100%" />
         </figure>
       </div>
     </section>

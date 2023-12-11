@@ -4,8 +4,11 @@ import linkedin from "../../assets/linkedin.svg";
 
 export const Social = () => {
   return (
-    <section className="w-full h-[1000px] flex justify-center items-center bg-gray-1 text-gray-2">
-      <div className="w-full max-w-5xl h-full flex justify-between items-center p-8">
+    <section
+      id="social"
+      className="w-full h-[1000px] flex justify-center items-center bg-gray-1 text-gray-2"
+    >
+      <div className="w-full max-w-7xl h-full flex justify-between items-center p-8">
         <div className="w-full max-w-sm h-[450px] flex flex-col gap-8">
           <h2 className="text-3xl text-gray-4 font-bold">
             Vamos começar uma conversa e
@@ -31,7 +34,11 @@ export const Social = () => {
                 estou disponível para um chat de voz, vamos falar de
                 criatividade juntos?
               </p>
-              <a href="" className="w-fit">
+              <a
+                href="https://api.whatsapp.com/send?phone=+55+51992252108"
+                target="blank"
+                className="w-fit hover:text-gray-4 "
+              >
                 Iniciar conversa agora
               </a>
             </div>
@@ -44,7 +51,11 @@ export const Social = () => {
             <div className="flex flex-col gap-4 pl-8">
               <h3 className="text-gray-4 text-lg font-bold">Meu E-mail</h3>
               <p>Me envie um e-mail relatando sugestões, feedbacks e ideias!</p>
-              <a href="" className="w-fit">
+              <a
+                href="mailto:jaugustovpires@gmail.com"
+                target="blank"
+                className="w-fit hover:text-gray-4"
+              >
                 Enviar e-mail agora
               </a>
             </div>
@@ -60,7 +71,11 @@ export const Social = () => {
                 Podemos criar interações mais constantes, bem como compartilhar
                 network!
               </p>
-              <a href="" className="w-fit">
+              <a
+                href="https://www.linkedin.com/in/joao-augusto-vieira/"
+                target="blank"
+                className="w-fit hover:text-gray-4 "
+              >
                 Ir para o Linkedin agora
               </a>
             </div>

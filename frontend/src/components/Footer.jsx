@@ -5,7 +5,7 @@ import email from "../assets/email.svg";
 export const Footer = () => {
   return (
     <footer className="w-full flex items-center justify-center bg-gray-0 text-gray-4 border-b-[50px] border-gray-1">
-      <div className="w-full max-w-5xl flex items-center justify-between p-8">
+      <div className="w-full max-w-7xl flex items-center justify-between p-8">
         <section className="w-full max-w-sm flex items-start justify-between">
           <div className="flex flex-col gap-4">
             <h2>Obrigado!</h2>
