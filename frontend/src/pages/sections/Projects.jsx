@@ -39,7 +39,7 @@ export const Projects = () => {
                 </div>
                 <div className="flex justify-between">
                   <a
-                    href={project.url}
+                    href={project.html_url}
                     target="blank"
                     className="flex w-[120px] justify-between items-center"
                   >
@@ -47,7 +47,7 @@ export const Projects = () => {
                     <p>Github Code</p>
                   </a>
                   <a
-                    href={project.url}
+                    href={project.html_url}
                     target="blank"
                     className="flex w-[100px] justify-between items-center"
                   >
