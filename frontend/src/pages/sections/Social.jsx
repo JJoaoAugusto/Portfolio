@@ -35,7 +35,7 @@ export const Social = () => {
                 criatividade juntos?
               </p>
               <a
-                href="https://api.whatsapp.com/send?phone=+55+51992252108"
+                href="https://api.whatsapp.com/send?phone=+55+51992252108&text=Ola"
                 target="blank"
                 className="w-fit hover:text-gray-4 "
               >

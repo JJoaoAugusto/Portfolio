@@ -22,6 +22,7 @@ export const Projects = () => {
 
         <ul className="w-full flex flex-wrap justify-between text-gray-2">
           {projects.map((project, index) => {
+            console.log(project);
             return (
               <li
                 key={index}
@@ -38,7 +39,7 @@ export const Projects = () => {
                 </div>
                 <div className="flex justify-between">
                   <a
-                    href={project.git_url}
+                    href={project.url}
                     target="blank"
                     className="flex w-[120px] justify-between items-center"
                   >
@@ -46,7 +47,7 @@ export const Projects = () => {
                     <p>Github Code</p>
                   </a>
                   <a
-                    href={project.git_url}
+                    href={project.url}
                     target="blank"
                     className="flex w-[100px] justify-between items-center"
                   >
