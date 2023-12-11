@@ -9,7 +9,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-20 flex flex-col items-center justify-center bg-gray-0 text-gray-4"
+      className="w-full py-20 z-10 flex flex-col items-center justify-center bg-gray-0 text-gray-4"
     >
       <div className="w-full max-w-7xl flex flex-col">
         <div className="w-full flex flex-col gap-2 p-8">

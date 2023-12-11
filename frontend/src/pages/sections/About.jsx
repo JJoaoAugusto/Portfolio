@@ -24,7 +24,7 @@ export const About = () => {
             <p className="text-gray-3">Olá! Meu nome é João Augusto</p>
           </figure>
 
-          <div className="w-full max-w-md flex flex-col gap-4">
+          <div className="w-full flex flex-col gap-4">
             <h1 className="text-4xl font-bold">
               Eu <span className="text-purple-2">amo</span> criar e
               <span className="text-purple-2"> desenvolver</span> projetos
@@ -46,7 +46,7 @@ export const About = () => {
             </a>
           </div>
 
-          <ul className="w-full max-w-md flex items-center justify-between">
+          <ul className="w-full flex items-center justify-between">
             <li>
               <img src={html} alt="Ícone do Html5" />
             </li>
@@ -65,8 +65,12 @@ export const About = () => {
           </ul>
         </div>
 
-        <figure className=" w-full max-w-lg">
-          <img src={background} alt="" className="w-100%" />
+        <figure className="w-full max-w-lg flex justify-end items-start">
+          <img
+            src={background}
+            alt=""
+            className="w-full max-w-lg fixed top-0 object-cover"
+          />
         </figure>
       </div>
     </section>
