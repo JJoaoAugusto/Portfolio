@@ -11,7 +11,7 @@ export const Projects = () => {
       id="projects"
       className="w-full py-20 z-10 flex flex-col items-center justify-center border-y-4 border-gray-2 bg-gray-0 text-gray-4"
     >
-      <div className="w-full max-w-7xl flex flex-col">
+      <div className="w-full max-w-7xl flex flex-col justify-center items-center">
         <div className="w-full flex flex-col gap-2 p-8">
           <h2 className="text-2xl font-bold">Meus projetos</h2>
           <p>

@@ -12,7 +12,7 @@ export const About = () => {
       id="home"
       className="bg-contain w-full h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
     >
-      <div className="w-full max-w-7xl max-h-screen flex items-center justify-between p-8">
+      <div className="w-full max-w-7xl max-h-screen flex items-center justify-center lg:justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
           <div className="w-full flex flex-col gap-4">
             <h1 className="text-4xl font-bold">
@@ -61,7 +61,7 @@ export const About = () => {
           </ul>
         </div>
 
-        <figure className="w-full max-w-lg flex justify-end items-start">
+        <figure className="w-full max-w-lg hidden lg:flex justify-end items-start">
           <img
             src={background}
             alt=""
