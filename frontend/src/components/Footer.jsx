@@ -3,7 +3,7 @@ import email from "../assets/email.svg";
 
 export const Footer = () => {
   return (
-    <footer className="w-full h-96 z-10 flex items-center justify-center bg-gray-0 text-gray-3">
+    <footer className="w-full h-96 z-20 flex items-center justify-center bg-gray-0 text-gray-3">
       <div className="w-full max-w-7xl h-full flex flex-col items-start justify-around p-8">
         <div className="w-full max-w-md flex flex-col gap-4">
           <h2>Obrigado!</h2>

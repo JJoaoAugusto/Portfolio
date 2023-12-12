@@ -10,7 +10,7 @@ export const About = () => {
   return (
     <section
       id="home"
-      className="bg-contain w-full h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
+      className="bg-contain w-full h-[1200px] lg:h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
     >
       <div className="w-full max-w-7xl max-h-screen flex items-center justify-center lg:justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
@@ -42,20 +42,35 @@ export const About = () => {
             </a>
           </div>
 
-          <ul className="w-full flex items-center justify-between">
-            <li>
+          <ul className="w-full flex flex-wrap items-center justify-between lg:justify-start ">
+            <li className="w-32 py-4">
               <img src={html} alt="Ícone do Html5" />
             </li>
-            <li>
+            <li className="w-32 py-4">
               <img src={css} alt="Ícone do Css3" />
             </li>
-            <li>
+            <li className="w-32 py-4">
               <img src={javascript} alt="Ícone do JavaScript" />
             </li>
-            <li>
+            <li className="w-32 py-4">
               <img src={node} alt="Ícone do nodeJs" />
             </li>
-            <li>
+            <li className="w-32 py-4">
+              <img src={react} alt="Ícone do React" />
+            </li>
+            <li className="w-32 py-4">
+              <img src={html} alt="Ícone do Html5" />
+            </li>
+            <li className="w-32 py-4">
+              <img src={css} alt="Ícone do Css3" />
+            </li>
+            <li className="w-32 py-4">
+              <img src={javascript} alt="Ícone do JavaScript" />
+            </li>
+            <li className="w-32 py-4">
+              <img src={node} alt="Ícone do nodeJs" />
+            </li>
+            <li className="w-32 py-4">
               <img src={react} alt="Ícone do React" />
             </li>
           </ul>
