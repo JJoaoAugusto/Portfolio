@@ -15,13 +15,15 @@ export const About = () => {
     >
       <div className="w-full max-w-7xl max-h-screen flex items-center justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
-          <figure className="w-[320px] flex items-center justify-between">
+          <figure className="w-full max-w-[350px] flex items-center justify-between">
             <img
               src={profile}
               alt="Minha foto de perfil"
               className="h-20 rounded-full"
             />
-            <p className="text-gray-3">Olá! Meu nome é João Augusto</p>
+            <p className="text-gray-2 text-lg font-semibold">
+              Olá! Meu nome é João Augusto
+            </p>
           </figure>
 
           <div className="w-full flex flex-col gap-4">
@@ -69,7 +71,7 @@ export const About = () => {
           <img
             src={background}
             alt=""
-            className="w-full max-w-lg fixed top-0 object-cover"
+            className="w-full max-w-lg fixed -top-40 object-cover"
           />
         </figure>
       </div>

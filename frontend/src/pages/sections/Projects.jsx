@@ -32,9 +32,22 @@ export const Projects = () => {
                   <h1 className="text-3xl font-bold text-gray-3">
                     {project.name}
                   </h1>
-                  <p>
-                    Linguagens: <span>{project.language}</span>
-                  </p>
+                  <ul className="flex justify-start items-center">
+                    <p>Linguagens:</p>
+
+                    {project.topics.map((topic, index) => {
+                      return (
+                        <li
+                          key={index}
+                          className="py-1 px-2 mx-1 bg-gray-1 rounded-lg"
+                        >
+                          <p>{topic}</p>
+                        </li>
+                      );
+                    })}
+
+                    {console.log(project)}
+                  </ul>
                   <p>{project.description}</p>
                 </div>
                 <div className="flex justify-between">
@@ -47,7 +60,9 @@ export const Projects = () => {
                     <p>Github Code</p>
                   </a>
                   <a
-                    href={project.html_url}
+                    href={
+                      project.homepage ? project.homepage : project.html_url
+                    }
                     target="blank"
                     className="flex w-[100px] justify-between items-center"
                   >
