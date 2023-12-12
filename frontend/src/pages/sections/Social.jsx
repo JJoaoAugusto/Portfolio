@@ -24,7 +24,7 @@ export const Social = () => {
           </p>
         </div>
         <ul className="w-full max-w-md flex flex-col gap-10">
-          <li className="w-full gap-4 flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start">
+          <li className="w-full gap-4 flex flex-col lg:flex-row justify-center lg:justify-between items-start ">
             <figure className="flex justify-center items-center bg-green-1 min-w-[100px] min-h-[100px] rounded-2xl">
               <img src={wpp} alt="Ícone do WhatsApp" className="" />
             </figure>
@@ -44,7 +44,7 @@ export const Social = () => {
             </div>
           </li>
 
-          <li className="w-full gap-4 flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start">
+          <li className="w-full gap-4 flex flex-col lg:flex-row justify-center items-start lg:justify-between">
             <figure className="flex justify-center items-center bg-social-2 min-w-[100px] min-h-[100px] rounded-2xl">
               <img src={email} alt="Ícone do E-mail" className="" />
             </figure>
@@ -61,7 +61,7 @@ export const Social = () => {
             </div>
           </li>
 
-          <li className="w-full gap-4 flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start">
+          <li className="w-full gap-4 flex flex-col lg:flex-row justify-center items-start lg:justify-between">
             <figure className="flex justify-center items-center bg-social-1 min-w-[100px] min-h-[100px] rounded-2xl">
               <img src={linkedin} alt="Ícone do Linkedin" className="" />
             </figure>
