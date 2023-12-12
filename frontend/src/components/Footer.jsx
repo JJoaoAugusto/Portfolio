@@ -3,11 +3,11 @@ import email from "../assets/email.svg";
 
 export const Footer = () => {
   return (
-    <footer className="w-full h-96 flex items-center justify-center bg-gray-0 text-gray-4">
+    <footer className="w-full h-96 z-10 flex items-center justify-center bg-gray-0 text-gray-3">
       <div className="w-full max-w-7xl h-full flex flex-col items-start justify-around p-8">
         <div className="w-full max-w-md flex flex-col gap-4">
           <h2>Obrigado!</h2>
-          <span>Me mande um e-amil ou me adicione no WhatsApp!</span>
+          <span>Me mande um e-mail ou me adicione no WhatsApp!</span>
         </div>
 
         <ul className="w-full max-w-sm flex flex-col justify-start gap-2 pb-10">

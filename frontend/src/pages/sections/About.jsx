@@ -1,5 +1,4 @@
 import background from "../../assets/background.svg";
-import profile from "../../assets/profile.svg";
 import github from "../../assets/github.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -15,17 +14,6 @@ export const About = () => {
     >
       <div className="w-full max-w-7xl max-h-screen flex items-center justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
-          <figure className="w-full max-w-[350px] flex items-center justify-between">
-            <img
-              src={profile}
-              alt="Minha foto de perfil"
-              className="h-20 rounded-full"
-            />
-            <p className="text-gray-2 text-lg font-semibold">
-              Olá! Meu nome é João Augusto
-            </p>
-          </figure>
-
           <div className="w-full flex flex-col gap-4">
             <h1 className="text-4xl font-bold">
               Eu <span className="text-purple-2">amo</span> criar e
@@ -33,7 +21,13 @@ export const About = () => {
             </h1>
             <p className="text-gray-2">
               Descubra aqui nesse portfólio, criado especialmente para você,
-              todos meus projetos e tecnoligias
+              todos meus projetos e tecnologias
+            </p>
+            <p className="text-gray-2">
+              Desenvolvo projetos semanalmente afim de praticar novas
+              tecnologias, bibliotecas e frameworks. Tenho muita familiaridade
+              com inglês e com as documentações de todas as tecnologias que
+              domino, assim como as suas boas práticas de desenvolvimento.
             </p>
           </div>
 
@@ -71,7 +65,7 @@ export const About = () => {
           <img
             src={background}
             alt=""
-            className="w-full max-w-lg fixed -top-40 object-cover"
+            className="w-full max-w-md fixed -top-40"
           />
         </figure>
       </div>

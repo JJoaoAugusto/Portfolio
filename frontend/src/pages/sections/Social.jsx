@@ -6,7 +6,7 @@ export const Social = () => {
   return (
     <section
       id="social"
-      className="w-full h-[1000px] z-10 flex justify-center items-center bg-gray-1 text-gray-2"
+      className="w-full h-[1000px] z-10 flex justify-center items-center border-b-4 border-gray-2 bg-gray-1 text-gray-2"
     >
       <div className="w-full max-w-7xl h-full flex justify-between items-center p-8">
         <div className="w-full max-w-sm h-[450px] flex flex-col gap-8">
@@ -19,8 +19,8 @@ export const Social = () => {
             juntos?
           </h2>
           <p>
-            advertise your brand organically within dribblers design inspiration
-            feed
+            Clique em iniciar conversa na sessão de WhatsApp ao lado para
+            podermos conversar!
           </p>
         </div>
         <ul className="w-full max-w-md flex flex-col gap-10">
