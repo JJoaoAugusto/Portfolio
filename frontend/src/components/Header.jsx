@@ -7,7 +7,7 @@ export const Header = () => {
           <li>
             <a
               href="#home"
-              className="flex border-b-2  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
+              className="flex border-b-[1px]  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
             >
               Home
             </a>
@@ -15,7 +15,7 @@ export const Header = () => {
           <li>
             <a
               href="#projects"
-              className="flex border-b-2  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
+              className="flex border-b-[1px]  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
             >
               Projetos
             </a>
@@ -23,7 +23,7 @@ export const Header = () => {
           <li>
             <a
               href="#social"
-              className="flex border-b-2  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
+              className="flex border-b-[1px]  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
             >
               Contatos
             </a>
