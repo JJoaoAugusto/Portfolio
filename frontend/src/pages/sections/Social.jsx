@@ -37,7 +37,7 @@ export const Social = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=+55+51992252108&text=Ola"
                 target="blank"
-                className="w-fit hover:text-gray-4 "
+                className="w-fit text-gray-3 lg:hover:text-gray-4"
               >
                 Iniciar conversa agora
               </a>
@@ -54,7 +54,7 @@ export const Social = () => {
               <a
                 href="mailto:jaugustovpires@gmail.com"
                 target="blank"
-                className="w-fit hover:text-gray-4"
+                className="w-fit text-gray-3 lg:hover:text-gray-4"
               >
                 Enviar e-mail agora
               </a>
@@ -74,7 +74,7 @@ export const Social = () => {
               <a
                 href="https://www.linkedin.com/in/joao-augusto-vieira/"
                 target="blank"
-                className="w-fit hover:text-gray-4 "
+                className="w-fit text-gray-3 lg:hover:text-gray-4"
               >
                 Ir para o Linkedin agora
               </a>

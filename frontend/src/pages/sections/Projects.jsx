@@ -45,8 +45,6 @@ export const Projects = () => {
                         </li>
                       );
                     })}
-
-                    {console.log(project)}
                   </ul>
                   <p>{project.description}</p>
                 </div>
@@ -59,20 +57,22 @@ export const Projects = () => {
                     <img src={github2} alt="Ícone do Github" className="w-6" />
                     <p>Github Code</p>
                   </a>
-                  <a
-                    href={
-                      project.homepage ? project.homepage : project.html_url
-                    }
-                    target="blank"
-                    className="flex w-[100px] justify-between items-center"
-                  >
-                    <img
-                      src={share}
-                      alt="Ícone share leva para a aplicação"
-                      className="w-6"
-                    />
-                    <p>Aplicação</p>
-                  </a>
+                  {project.homepage ? (
+                    <a
+                      href={project.homepage}
+                      target="blank"
+                      className="flex w-[100px] justify-between items-center"
+                    >
+                      <img
+                        src={share}
+                        alt="Ícone share leva para a aplicação"
+                        className="w-6"
+                      />
+                      <p>Aplicação</p>
+                    </a>
+                  ) : (
+                    <p></p>
+                  )}
                 </div>
               </li>
             );

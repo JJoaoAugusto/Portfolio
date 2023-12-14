@@ -1,18 +1,18 @@
 import background from "../../assets/background.svg";
 import github from "../../assets/github.svg";
-import html from "../../assets/html.svg";
-import css from "../../assets/css.svg";
-import javascript from "../../assets/javascript.svg";
-import node from "../../assets/node.svg";
-import react from "../../assets/react.svg";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiPostgresql, SiTypescript } from "react-icons/si";
+import { FaGit, FaPython } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaNode, FaReact } from "react-icons/fa";
+import { BiChevronUp } from "react-icons/bi";
 
 export const About = () => {
   return (
     <section
       id="home"
-      className="bg-contain w-full h-[1200px] lg:h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
+      className="bg-contain w-full h-[1350px] lg:h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
     >
-      <div className="w-full max-w-7xl max-h-screen flex items-center justify-center lg:justify-between p-8">
+      <div className="w-full max-w-7xl *max-h-screen* flex items-center justify-center lg:justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
           <div className="w-full flex flex-col gap-4">
             <h1 className="text-4xl font-bold">
@@ -42,36 +42,74 @@ export const About = () => {
             </a>
           </div>
 
-          <ul className="w-full flex flex-wrap items-center justify-between lg:justify-start ">
-            <li className="w-32 py-4">
-              <img src={html} alt="Ícone do Html5" />
+          <ul className="w-full flex flex-wrap items-center justify-center lg-justify-start  ">
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                HTML5
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaHtml5 className="w-16 h-16" />
             </li>
-            <li className="w-32 py-4">
-              <img src={css} alt="Ícone do Css3" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                CSS3
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaCss3Alt className="w-16 h-16" />
             </li>
-            <li className="w-32 py-4">
-              <img src={javascript} alt="Ícone do JavaScript" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                JavaScript
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaJs className="w-16 h-16" />
             </li>
-            <li className="w-32 py-4">
-              <img src={node} alt="Ícone do nodeJs" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                TypeScript
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <SiTypescript className="w-16 h-16" />
             </li>
-            <li className="w-32 py-4">
-              <img src={react} alt="Ícone do React" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                NodeJs
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaNode className="w-16 h-16" />
             </li>
-            <li className="w-32 py-4">
-              <img src={html} alt="Ícone do Html5" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                React
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaReact className="w-16 h-16" title="React" />
             </li>
-            <li className="w-32 py-4">
-              <img src={css} alt="Ícone do Css3" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                Next
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <TbBrandNextjs className="w-16 h-16" t />
             </li>
-            <li className="w-32 py-4">
-              <img src={javascript} alt="Ícone do JavaScript" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                PostgreSQL
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <SiPostgresql className="w-16 h-16" />
             </li>
-            <li className="w-32 py-4">
-              <img src={node} alt="Ícone do nodeJs" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">Git</p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaGit className="w-16 h-16" t />
             </li>
-            <li className="w-32 py-4">
-              <img src={react} alt="Ícone do React" />
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                Python
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaPython className="w-16 h-16" />
             </li>
           </ul>
         </div>
