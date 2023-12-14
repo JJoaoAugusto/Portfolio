@@ -11,7 +11,7 @@ export const About = () => {
   return (
     <section
       id="home"
-      className="bg-contain w-full h-[1350px] md:h-[1200px] lg:h-[1000px] flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
+      className="bg-contain w-full py-28 flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
     >
       <div className="w-full max-w-7xl flex items-center justify-center lg:justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">

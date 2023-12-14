@@ -5,13 +5,28 @@ export const Header = () => {
         <h2 className="text-2xl font-bold">João Augusto Vieira</h2>
         <ul className="w-full max-w-[280px] flex items-center justify-between">
           <li>
-            <a href="#home">Home</a>
+            <a
+              href="#home"
+              className="flex border-b-2  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="#projects">Projetos</a>
+            <a
+              href="#projects"
+              className="flex border-b-2  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
+            >
+              Projetos
+            </a>
           </li>
           <li>
-            <a href="#social">Contatos</a>
+            <a
+              href="#social"
+              className="flex border-b-2  border-gray-2 text-gray-2 hover:border-gray-3 hover:text-gray-3"
+            >
+              Contatos
+            </a>
           </li>
         </ul>
       </nav>
