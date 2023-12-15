@@ -25,10 +25,11 @@ export const About = () => {
               todos meus projetos e tecnologias
             </p>
             <p className="text-gray-2">
-              Desenvolvo projetos semanalmente afim de praticar novas
-              tecnologias, bibliotecas e frameworks. Tenho muita familiaridade
-              com inglês e com as documentações de todas as tecnologias que
-              domino, assim como as suas boas práticas de desenvolvimento.
+              Sou desenvolvedor Full Stack e desenvolvo projetos semanalmente
+              afim de praticar novas tecnologias, bibliotecas e frameworks.
+              Tenho muita familiaridade com inglês e com as documentações de
+              todas as tecnologias que domino, assim como as suas boas práticas
+              de desenvolvimento.
             </p>
           </div>
 
