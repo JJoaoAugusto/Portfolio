@@ -11,9 +11,9 @@ export const About = () => {
   return (
     <section
       id="home"
-      className="bg-contain w-full py-28 flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
+      className="bg-contain w-full -z-10 py-28 flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
     >
-      <div className="w-full max-w-7xl flex items-center justify-center lg:justify-between p-8">
+      <div className="w-full max-w-7xl flex items-center justify-center xl:justify-between p-8">
         <div className="w-full max-w-lg flex flex-col gap-10">
           <div className="w-full flex flex-col gap-4">
             <h1 className="text-4xl font-bold">
@@ -123,12 +123,8 @@ export const About = () => {
           </ul>
         </div>
 
-        <figure className="w-full max-w-lg hidden lg:flex justify-end items-start">
-          <img
-            src={background}
-            alt=""
-            className="w-full max-w-md fixed -top-40"
-          />
+        <figure className="w-full max-w-lg hidden xl:flex lg justify-end items-start">
+          <img src={background} alt="" className="fixed -top-60" />
         </figure>
       </div>
     </section>

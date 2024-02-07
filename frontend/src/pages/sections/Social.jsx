@@ -6,7 +6,7 @@ export const Social = () => {
   return (
     <section
       id="social"
-      className="w-full h-[1400px] lg:h-[1000px] z-10 flex justify-center items-center border-b-4 border-gray-2 bg-gray-1 text-gray-2"
+      className="w-full h-[1400px] lg:h-[1000px] flex justify-center items-center border-b-4 border-gray-2 bg-gray-1 text-gray-2"
     >
       <div className="w-full max-w-7xl h-full flex flex-col lg:flex-row justify-center lg:justify-between items-center p-8">
         <div className="w-full max-w-sm h-[350px] lg:h-[450px] flex flex-col gap-8">
@@ -19,8 +19,8 @@ export const Social = () => {
             juntos?
           </h2>
           <p>
-            Clique em iniciar conversa na sessão de WhatsApp ao lado para
-            podermos conversar!
+            Clique em iniciar conversa na sessão de WhatsApp para podermos
+            conversar!
           </p>
         </div>
         <ul className="w-full max-w-md flex flex-col gap-10">
@@ -31,7 +31,7 @@ export const Social = () => {
             <div className="w-full flex flex-col gap-4 lg:pl-8">
               <h3 className="text-gray-4 text-lg font-bold">Meu Contato</h3>
               <p>
-                Estou disponível para um chat de voz, vamos falar de
+                Estou disponível para um chat de voz, vamos falar sobre
                 criatividade juntos?
               </p>
               <a
