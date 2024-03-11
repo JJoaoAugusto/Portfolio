@@ -3,7 +3,14 @@ import github from "../../assets/github.svg";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiPostgresql, SiTypescript } from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
-import { FaHtml5, FaCss3Alt, FaJs, FaNode, FaReact } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaNode,
+  FaReact,
+  FaJava,
+} from "react-icons/fa";
 import { BiChevronUp } from "react-icons/bi";
 import { SiTailwindcss } from "react-icons/si";
 
@@ -119,6 +126,13 @@ export const About = () => {
               </p>
               <BiChevronUp className="hidden group-hover:flex" />
               <SiTailwindcss className="w-16 h-16" />
+            </li>
+            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+              <p className="hidden group-hover:flex text-xs text-gray-2">
+                Java
+              </p>
+              <BiChevronUp className="hidden group-hover:flex" />
+              <FaJava className="w-16 h-16" />
             </li>
           </ul>
         </div>
