@@ -137,8 +137,8 @@ export const About = () => {
           </ul>
         </div>
 
-        <figure className="w-full max-w-lg hidden xl:flex lg justify-end items-start">
-          <img src={background} alt="" className="fixed -top-60" />
+        <figure className="w-full z-0 max-w-lg hidden xl:flex lg justify-end items-start">
+          <img src={background} alt="" className="fixed -top-80 -z-10" />
         </figure>
       </div>
     </section>
