@@ -6,7 +6,7 @@ export const Social = () => {
   return (
     <section
       id="social"
-      className="w-full h-[1400px] lg:h-[1000px] flex justify-center items-center border-b-4 border-gray-2 bg-gray-1 text-gray-2"
+      className="w-full z-10 h-[1400px] lg:h-[1000px] flex justify-center items-center border-b-4 border-gray-2 bg-gray-1 text-gray-2"
     >
       <div className="w-full max-w-7xl h-full flex flex-col lg:flex-row justify-center lg:justify-between items-center p-8">
         <div className="w-full max-w-sm h-[350px] lg:h-[450px] flex flex-col gap-8">
