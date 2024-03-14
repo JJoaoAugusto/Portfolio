@@ -1,4 +1,3 @@
-import background from "../../assets/background.svg";
 import github from "../../assets/github.svg";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiPostgresql, SiTypescript } from "react-icons/si";
@@ -20,8 +19,8 @@ export const About = () => {
       id="home"
       className="bg-contain w-full py-28 flex flex-col items-center justify-center bg-gray-1 text-gray-4 mt-16"
     >
-      <div className="w-full max-w-7xl flex items-center justify-center xl:justify-between p-8">
-        <div className="w-full max-w-lg flex flex-col gap-10">
+      <div className="w-full max-w-7xl flex flex-col xl:flex-row items-center justify-center py-20 px-8 xl:pl-8 xl:pr-0 lg:justify-between">
+        <div className="w-full max-w-3xl xl:max-w-lg flex flex-col gap-10">
           <div className="w-full flex flex-col gap-4">
             <h1 className="text-4xl font-bold">
               Eu <span className="text-purple-2">amo</span> criar e
@@ -29,7 +28,7 @@ export const About = () => {
             </h1>
             <p className="text-gray-2">
               Descubra aqui nesse portfólio, criado especialmente para você,
-              todos meus projetos e tecnologias
+              todas as tecnologias que domino, meus projetos e meus contatos!
             </p>
             <p className="text-gray-2">
               Sou desenvolvedor Full Stack e desenvolvo projetos semanalmente
@@ -50,96 +49,82 @@ export const About = () => {
               <img src={github} alt="Ícone do Github" className="h-10" />
             </a>
           </div>
-
-          <ul className="w-full flex flex-wrap items-center justify-center lg-justify-start  ">
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                HTML5
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaHtml5 className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                CSS3
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaCss3Alt className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                JavaScript
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaJs className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                TypeScript
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <SiTypescript className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                NodeJs
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaNode className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                React
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaReact className="w-16 h-16" title="React" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                Next
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <TbBrandNextjs className="w-16 h-16" t />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                PostgreSQL
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <SiPostgresql className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">Git</p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaGit className="w-16 h-16" t />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                Python
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaPython className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                TailwindCSS
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <SiTailwindcss className="w-16 h-16" />
-            </li>
-            <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
-              <p className="hidden group-hover:flex text-xs text-gray-2">
-                Java
-              </p>
-              <BiChevronUp className="hidden group-hover:flex" />
-              <FaJava className="w-16 h-16" />
-            </li>
-          </ul>
         </div>
 
-        <figure className="w-full z-0 max-w-lg hidden xl:flex lg justify-end items-start">
-          <img src={background} alt="" className="fixed -top-80 -z-10" />
-        </figure>
+        <ul className="w-full max-w-3xl xl:max-w-xl flex flex-wrap items-center justify-center xl:justify-end pt-20 xl:pt-0">
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">HTML5</p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaHtml5 className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">CSS3</p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaCss3Alt className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">
+              JavaScript
+            </p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaJs className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">
+              TypeScript
+            </p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <SiTypescript className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">
+              NodeJs
+            </p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaNode className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">React</p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaReact className="w-16 h-16" title="React" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">Next</p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <TbBrandNextjs className="w-16 h-16" t />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">
+              PostgreSQL
+            </p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <SiPostgresql className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">Git</p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaGit className="w-16 h-16" t />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">
+              Python
+            </p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaPython className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">
+              TailwindCSS
+            </p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <SiTailwindcss className="w-16 h-16" />
+          </li>
+          <li className="group w-32 h-32 py-4 flex flex-col justify-center items-center">
+            <p className="hidden group-hover:flex text-xs text-gray-2">Java</p>
+            <BiChevronUp className="hidden group-hover:flex" />
+            <FaJava className="w-16 h-16" />
+          </li>
+        </ul>
       </div>
     </section>
   );
