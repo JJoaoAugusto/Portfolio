@@ -14,10 +14,6 @@ export const Projects = () => {
       <div className="w-full max-w-7xl flex flex-col justify-center items-center">
         <div className="w-full flex flex-col gap-2 p-8">
           <h2 className="text-2xl font-bold">Meus projetos</h2>
-          <p>
-            Projetos criados durante o curso fullstack da
-            <span className="text-pink-1"> Kenzie Academy</span>
-          </p>
         </div>
 
         <ul className="w-full flex flex-wrap justify-between text-gray-2">
